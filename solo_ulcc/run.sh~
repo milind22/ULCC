@@ -1,0 +1,18 @@
+make -f makefile.infiniteULCC
+sleep 1
+
+sd=20
+
+for (( col_high=0;col_high<64;col_high++))
+do
+echo "col=$col_high"
+for (( rep=1;rep<=20;rep++))
+do
+echo "rep=$rep"
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./infinite $sd 64 0 $col_high
+bash arrange.sh >> data_solo.$sd.ulcc.$col_high
+done
+sort -n data_solo.$sd.ulcc.$col_high --output=data_solo.$sd.ulcc.$col_high
+cmr="$(awk '{ sum+=$5} END {print sum/20}' data_solo.$sd.ulcc.$col_high)"
+echo "$cmr" >> cmrVScolors2
+done

@@ -1,0 +1,10 @@
+for (( rep=1;rep<=50;rep++))
+do
+#numactl --physcpubind=2 --membind=0 ./infinite 100 64 62 62 &
+#sleep 1
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./accesses 20 64 0 60
+sleep 1
+#pkill infinite
+bash arrange.sh >> data_20_60
+done
+sort -n data_20_60 --output=data_20_60

@@ -1,0 +1,1216 @@
+# started on Sat Jun 20 12:01:26 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,65,31,701      cache-misses              #   16.734 % of all cache refs    
+       9,87,93,791      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.414562026 seconds time elapsed
+
+# started on Sat Jun 20 12:01:29 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,84,22,028      cache-misses              #   18.634 % of all cache refs    
+       9,88,63,882      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.475675608 seconds time elapsed
+
+# started on Sat Jun 20 12:01:33 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,80,43,017      cache-misses              #   18.252 % of all cache refs    
+       9,88,56,867      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.461691112 seconds time elapsed
+
+# started on Sat Jun 20 12:01:36 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,83,18,934      cache-misses              #   18.530 % of all cache refs    
+       9,88,60,747      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.464693295 seconds time elapsed
+
+# started on Sat Jun 20 12:01:40 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,88,26,369      cache-misses              #   19.048 % of all cache refs    
+       9,88,35,376      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.481544332 seconds time elapsed
+
+# started on Sat Jun 20 12:01:43 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,96,30,738      cache-misses              #   19.874 % of all cache refs    
+       9,87,73,666      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.502395134 seconds time elapsed
+
+# started on Sat Jun 20 12:01:47 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,93,68,352      cache-misses              #   19.607 % of all cache refs    
+       9,87,83,475      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.469595791 seconds time elapsed
+
+# started on Sat Jun 20 12:01:50 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,72,08,372      cache-misses              #   17.411 % of all cache refs    
+       9,88,33,473      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.436445409 seconds time elapsed
+
+# started on Sat Jun 20 12:01:54 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,79,89,342      cache-misses              #   18.209 % of all cache refs    
+       9,87,95,572      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.464507857 seconds time elapsed
+
+# started on Sat Jun 20 12:01:57 2015
+
+
+ Performance counter stats for './accesses 10 64 50':
+
+       1,80,18,409      cache-misses              #   18.236 % of all cache refs    
+       9,88,04,731      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.455369374 seconds time elapsed
+
+# started on Thu Jun 25 00:58:11 2015
+
+# started on Thu Jun 25 00:58:22 2015
+
+# started on Thu Jun 25 00:58:33 2015
+
+# started on Thu Jun 25 00:59:52 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,18,31,437      cache-misses              #   56.668 % of all cache refs    
+      42,67,52,782      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.009165989 seconds time elapsed
+
+# started on Thu Jun 25 01:00:03 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,87,27,198      cache-misses              #   65.263 % of all cache refs    
+      41,17,62,892      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006406496 seconds time elapsed
+
+# started on Thu Jun 25 01:00:14 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,68,81,901      cache-misses              #   65.412 % of all cache refs    
+      42,32,88,019      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005504829 seconds time elapsed
+
+# started on Thu Jun 25 01:00:26 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,12,30,107      cache-misses              #   65.064 % of all cache refs    
+      41,68,63,448      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005346690 seconds time elapsed
+
+# started on Thu Jun 25 01:00:37 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,81,84,973      cache-misses              #   56.260 % of all cache refs    
+      44,11,36,282      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004854259 seconds time elapsed
+
+# started on Thu Jun 25 01:00:48 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,74,27,166      cache-misses              #   56.613 % of all cache refs    
+      43,70,49,799      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004954888 seconds time elapsed
+
+# started on Thu Jun 25 01:00:59 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,85,45,260      cache-misses              #   65.295 % of all cache refs    
+      41,12,79,790      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004554830 seconds time elapsed
+
+# started on Thu Jun 25 01:01:10 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,88,58,307      cache-misses              #   65.319 % of all cache refs    
+      41,16,08,900      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004432909 seconds time elapsed
+
+# started on Thu Jun 25 01:01:21 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,09,57,684      cache-misses              #   56.561 % of all cache refs    
+      42,60,11,160      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007012900 seconds time elapsed
+
+# started on Thu Jun 25 01:01:32 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,02,89,965      cache-misses              #   65.301 % of all cache refs    
+      41,39,15,568      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006117862 seconds time elapsed
+
+# started on Thu Jun 25 01:01:43 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,26,02,938      cache-misses              #   56.594 % of all cache refs    
+      42,86,72,250      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005300672 seconds time elapsed
+
+# started on Thu Jun 25 01:01:54 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,33,31,959      cache-misses              #   65.368 % of all cache refs    
+      41,81,42,602      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007129397 seconds time elapsed
+
+# started on Thu Jun 25 01:02:05 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      23,91,06,839      cache-misses              #   56.533 % of all cache refs    
+      42,29,51,219      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007902738 seconds time elapsed
+
+# started on Thu Jun 25 01:02:16 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,76,10,525      cache-misses              #   65.354 % of all cache refs    
+      40,94,80,728      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006025142 seconds time elapsed
+
+# started on Thu Jun 25 01:02:27 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,58,79,107      cache-misses              #   65.095 % of all cache refs    
+      42,38,07,735      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004880398 seconds time elapsed
+
+# started on Thu Jun 25 01:02:38 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,99,64,752      cache-misses              #   65.075 % of all cache refs    
+      43,02,18,369      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007199886 seconds time elapsed
+
+# started on Thu Jun 25 01:02:49 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,90,53,623      cache-misses              #   65.205 % of all cache refs    
+      41,26,24,987      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005365838 seconds time elapsed
+
+# started on Thu Jun 25 01:03:00 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,33,54,010      cache-misses              #   56.406 % of all cache refs    
+      43,14,35,923      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007089949 seconds time elapsed
+
+# started on Thu Jun 25 01:03:11 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,15,66,579      cache-misses              #   56.437 % of all cache refs    
+      42,80,26,434      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005152109 seconds time elapsed
+
+# started on Thu Jun 25 01:03:22 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      28,10,83,121      cache-misses              #   65.186 % of all cache refs    
+      43,12,01,459      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005410859 seconds time elapsed
+
+# started on Thu Jun 25 01:03:33 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,07,42,610      cache-misses              #   65.383 % of all cache refs    
+      41,40,87,261      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004546512 seconds time elapsed
+
+# started on Thu Jun 25 01:03:44 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,26,77,805      cache-misses              #   56.749 % of all cache refs    
+      42,76,33,022      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006966709 seconds time elapsed
+
+# started on Thu Jun 25 01:03:55 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      25,13,37,480      cache-misses              #   60.816 % of all cache refs    
+      41,32,73,580      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005040216 seconds time elapsed
+
+# started on Thu Jun 25 01:04:06 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,54,01,851      cache-misses              #   65.136 % of all cache refs    
+      42,28,09,323      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.011883801 seconds time elapsed
+
+# started on Thu Jun 25 01:04:17 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,65,64,179      cache-misses              #   65.408 % of all cache refs    
+      40,75,43,126      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006980939 seconds time elapsed
+
+# started on Thu Jun 25 01:04:28 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,04,83,970      cache-misses              #   64.993 % of all cache refs    
+      41,61,74,780      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007327480 seconds time elapsed
+
+# started on Thu Jun 25 01:04:39 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,23,51,199      cache-misses              #   65.408 % of all cache refs    
+      41,63,85,797      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005479176 seconds time elapsed
+
+# started on Thu Jun 25 01:04:50 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,89,12,773      cache-misses              #   65.398 % of all cache refs    
+      41,11,93,235      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007258806 seconds time elapsed
+
+# started on Thu Jun 25 01:05:01 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,86,40,744      cache-misses              #   65.085 % of all cache refs    
+      42,81,16,175      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004507089 seconds time elapsed
+
+# started on Thu Jun 25 01:05:12 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,64,09,968      cache-misses              #   56.719 % of all cache refs    
+      43,44,40,896      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.011231414 seconds time elapsed
+
+# started on Thu Jun 25 01:05:23 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      23,85,35,357      cache-misses              #   56.723 % of all cache refs    
+      42,05,23,774      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005454226 seconds time elapsed
+
+# started on Thu Jun 25 01:05:34 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,29,75,493      cache-misses              #   56.740 % of all cache refs    
+      42,82,24,554      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006147808 seconds time elapsed
+
+# started on Thu Jun 25 01:05:46 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,74,36,957      cache-misses              #   65.096 % of all cache refs    
+      41,08,34,852      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005260908 seconds time elapsed
+
+# started on Thu Jun 25 01:05:57 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,00,15,118      cache-misses              #   65.318 % of all cache refs    
+      41,33,88,173      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005195424 seconds time elapsed
+
+# started on Thu Jun 25 01:06:08 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,07,23,091      cache-misses              #   65.542 % of all cache refs    
+      41,30,55,139      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007246262 seconds time elapsed
+
+# started on Thu Jun 25 01:06:19 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,71,13,187      cache-misses              #   65.363 % of all cache refs    
+      40,86,63,299      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006121447 seconds time elapsed
+
+# started on Thu Jun 25 01:06:30 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,52,34,573      cache-misses              #   56.519 % of all cache refs    
+      43,38,98,474      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006116738 seconds time elapsed
+
+# started on Thu Jun 25 01:06:41 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,91,53,216      cache-misses              #   64.997 % of all cache refs    
+      41,41,01,126      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.009062542 seconds time elapsed
+
+# started on Thu Jun 25 01:06:52 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,71,52,993      cache-misses              #   65.621 % of all cache refs    
+      40,71,15,980      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.013942411 seconds time elapsed
+
+# started on Thu Jun 25 01:07:03 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,55,91,062      cache-misses              #   56.083 % of all cache refs    
+      43,79,05,688      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005549896 seconds time elapsed
+
+# started on Thu Jun 25 01:07:14 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,41,48,049      cache-misses              #   56.632 % of all cache refs    
+      43,11,10,882      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006961870 seconds time elapsed
+
+# started on Thu Jun 25 01:07:25 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,94,87,448      cache-misses              #   56.506 % of all cache refs    
+      44,15,21,194      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006000081 seconds time elapsed
+
+# started on Thu Jun 25 01:07:36 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,31,75,360      cache-misses              #   56.469 % of all cache refs    
+      43,06,31,685      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005081114 seconds time elapsed
+
+# started on Thu Jun 25 01:07:47 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,35,24,897      cache-misses              #   56.700 % of all cache refs    
+      42,95,00,465      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005131355 seconds time elapsed
+
+# started on Thu Jun 25 01:07:58 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      25,05,59,328      cache-misses              #   56.442 % of all cache refs    
+      44,39,21,805      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005070150 seconds time elapsed
+
+# started on Thu Jun 25 01:08:09 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,70,62,677      cache-misses              #   65.358 % of all cache refs    
+      40,86,16,413      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004815724 seconds time elapsed
+
+# started on Thu Jun 25 01:08:20 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      24,12,73,398      cache-misses              #   56.615 % of all cache refs    
+      42,61,66,058      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.010411261 seconds time elapsed
+
+# started on Thu Jun 25 01:08:31 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      27,02,69,148      cache-misses              #   65.316 % of all cache refs    
+      41,37,85,121      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004727934 seconds time elapsed
+
+# started on Thu Jun 25 01:08:42 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      26,88,46,588      cache-misses              #   65.159 % of all cache refs    
+      41,26,01,323      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007315887 seconds time elapsed
+
+# started on Thu Jun 25 01:08:53 2015
+
+
+ Performance counter stats for './infinite 20 64 0 50':
+
+      28,00,79,091      cache-misses              #   65.291 % of all cache refs    
+      42,89,73,370      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005914715 seconds time elapsed
+
+# started on Thu Jun 25 01:11:02 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,60,95,773      cache-misses              #   49.677 % of all cache refs    
+      45,51,30,074      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006060669 seconds time elapsed
+
+# started on Thu Jun 25 01:11:13 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,06,62,907      cache-misses              #   49.960 % of all cache refs    
+      46,16,92,914      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.012703860 seconds time elapsed
+
+# started on Thu Jun 25 01:11:25 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,46,66,939      cache-misses              #   49.828 % of all cache refs    
+      45,08,82,971      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007288439 seconds time elapsed
+
+# started on Thu Jun 25 01:11:36 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,57,47,526      cache-misses              #   49.744 % of all cache refs    
+      45,38,16,119      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005718118 seconds time elapsed
+
+# started on Thu Jun 25 01:11:47 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,86,82,945      cache-misses              #   49.868 % of all cache refs    
+      45,85,79,061      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005252715 seconds time elapsed
+
+# started on Thu Jun 25 01:11:58 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,36,80,713      cache-misses              #   50.386 % of all cache refs    
+      44,39,31,737      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007472024 seconds time elapsed
+
+# started on Thu Jun 25 01:12:09 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,59,56,782      cache-misses              #   49.999 % of all cache refs    
+      45,19,24,241      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006918306 seconds time elapsed
+
+# started on Thu Jun 25 01:12:20 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,14,84,011      cache-misses              #   50.218 % of all cache refs    
+      46,09,59,013      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005560899 seconds time elapsed
+
+# started on Thu Jun 25 01:12:31 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,43,17,586      cache-misses              #   50.405 % of all cache refs    
+      44,50,27,848      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004863757 seconds time elapsed
+
+# started on Thu Jun 25 01:12:42 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,65,75,034      cache-misses              #   49.903 % of all cache refs    
+      45,40,33,513      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005706403 seconds time elapsed
+
+# started on Thu Jun 25 01:12:53 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,45,35,811      cache-misses              #   50.054 % of all cache refs    
+      44,85,88,633      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004997979 seconds time elapsed
+
+# started on Thu Jun 25 01:13:04 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,55,19,525      cache-misses              #   49.999 % of all cache refs    
+      45,10,51,576      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004472293 seconds time elapsed
+
+# started on Thu Jun 25 01:13:15 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,89,33,083      cache-misses              #   50.081 % of all cache refs    
+      45,71,29,536      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007123972 seconds time elapsed
+
+# started on Thu Jun 25 01:13:26 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,72,78,530      cache-misses              #   50.081 % of all cache refs    
+      45,38,24,450      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005209199 seconds time elapsed
+
+# started on Thu Jun 25 01:13:37 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      21,94,93,092      cache-misses              #   50.145 % of all cache refs    
+      43,77,18,347      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.008110448 seconds time elapsed
+
+# started on Thu Jun 25 01:13:48 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,68,39,043      cache-misses              #   50.154 % of all cache refs    
+      45,22,84,825      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006875286 seconds time elapsed
+
+# started on Thu Jun 25 01:13:59 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,06,32,678      cache-misses              #   49.880 % of all cache refs    
+      46,23,72,201      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006757827 seconds time elapsed
+
+# started on Thu Jun 25 01:14:10 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,09,00,933      cache-misses              #   50.313 % of all cache refs    
+      43,90,54,162      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005632004 seconds time elapsed
+
+# started on Thu Jun 25 01:14:21 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      21,56,95,020      cache-misses              #   50.133 % of all cache refs    
+      43,02,46,803      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007591684 seconds time elapsed
+
+# started on Thu Jun 25 01:14:32 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,81,54,334      cache-misses              #   50.216 % of all cache refs    
+      45,43,45,141      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007158311 seconds time elapsed
+
+# started on Thu Jun 25 01:14:43 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,62,37,594      cache-misses              #   50.224 % of all cache refs    
+      45,04,58,357      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007334425 seconds time elapsed
+
+# started on Thu Jun 25 01:14:54 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,60,05,752      cache-misses              #   50.215 % of all cache refs    
+      45,00,75,942      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006330722 seconds time elapsed
+
+# started on Thu Jun 25 01:15:05 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,53,13,450      cache-misses              #   50.025 % of all cache refs    
+      45,04,04,906      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005337994 seconds time elapsed
+
+# started on Thu Jun 25 01:15:16 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,68,97,733      cache-misses              #   50.144 % of all cache refs    
+      45,24,91,029      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.004758307 seconds time elapsed
+
+# started on Thu Jun 25 01:15:27 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,78,50,062      cache-misses              #   50.099 % of all cache refs    
+      45,48,03,412      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005296205 seconds time elapsed
+
+# started on Thu Jun 25 01:15:38 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,80,06,908      cache-misses              #   49.810 % of all cache refs    
+      45,77,51,008      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006687251 seconds time elapsed
+
+# started on Thu Jun 25 01:15:49 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,58,34,568      cache-misses              #   49.919 % of all cache refs    
+      45,24,05,933      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005767174 seconds time elapsed
+
+# started on Thu Jun 25 01:16:00 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,94,15,548      cache-misses              #   50.032 % of all cache refs    
+      45,85,37,441      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006210170 seconds time elapsed
+
+# started on Thu Jun 25 01:16:11 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,61,06,309      cache-misses              #   50.308 % of all cache refs    
+      44,94,47,195      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007104407 seconds time elapsed
+
+# started on Thu Jun 25 01:16:22 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,18,36,233      cache-misses              #   50.069 % of all cache refs    
+      46,30,35,422      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006820357 seconds time elapsed
+
+# started on Thu Jun 25 01:16:33 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,15,49,527      cache-misses              #   49.996 % of all cache refs    
+      44,31,37,189      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006419182 seconds time elapsed
+
+# started on Thu Jun 25 01:16:45 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,10,36,752      cache-misses              #   49.898 % of all cache refs    
+      44,29,74,766      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005541473 seconds time elapsed
+
+# started on Thu Jun 25 01:16:56 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,82,92,256      cache-misses              #   50.053 % of all cache refs    
+      45,60,99,554      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006818603 seconds time elapsed
+
+# started on Thu Jun 25 01:17:07 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,51,57,093      cache-misses              #   49.711 % of all cache refs    
+      45,29,35,702      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.009054365 seconds time elapsed
+
+# started on Thu Jun 25 01:17:18 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,44,89,084      cache-misses              #   50.061 % of all cache refs    
+      44,84,33,444      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006064567 seconds time elapsed
+
+# started on Thu Jun 25 01:17:29 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,25,68,199      cache-misses              #   50.112 % of all cache refs    
+      44,41,44,139      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006957111 seconds time elapsed
+
+# started on Thu Jun 25 01:17:40 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,46,58,216      cache-misses              #   50.354 % of all cache refs    
+      44,61,55,453      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007666597 seconds time elapsed
+
+# started on Thu Jun 25 01:17:51 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,86,85,432      cache-misses              #   49.914 % of all cache refs    
+      45,81,59,778      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.008056394 seconds time elapsed
+
+# started on Thu Jun 25 01:18:02 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,63,45,675      cache-misses              #   50.056 % of all cache refs    
+      45,21,86,588      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005104550 seconds time elapsed
+
+# started on Thu Jun 25 01:18:13 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,84,06,995      cache-misses              #   50.150 % of all cache refs    
+      45,54,49,910      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007452527 seconds time elapsed
+
+# started on Thu Jun 25 01:18:24 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,40,81,201      cache-misses              #   50.123 % of all cache refs    
+      44,70,64,807      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.010884078 seconds time elapsed
+
+# started on Thu Jun 25 01:18:35 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,64,17,235      cache-misses              #   50.095 % of all cache refs    
+      45,19,72,272      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006175507 seconds time elapsed
+
+# started on Thu Jun 25 01:18:46 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,05,44,445      cache-misses              #   50.181 % of all cache refs    
+      45,94,22,769      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005260905 seconds time elapsed
+
+# started on Thu Jun 25 01:18:57 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,56,64,529      cache-misses              #   49.851 % of all cache refs    
+      45,26,76,571      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005570400 seconds time elapsed
+
+# started on Thu Jun 25 01:19:08 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      23,09,66,979      cache-misses              #   49.976 % of all cache refs    
+      46,21,51,187      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006529402 seconds time elapsed
+
+# started on Thu Jun 25 01:19:19 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,57,56,649      cache-misses              #   50.017 % of all cache refs    
+      45,13,55,731      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005510497 seconds time elapsed
+
+# started on Thu Jun 25 01:19:30 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      21,57,27,890      cache-misses              #   50.256 % of all cache refs    
+      42,92,59,015      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.011182585 seconds time elapsed
+
+# started on Thu Jun 25 01:19:41 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,58,09,682      cache-misses              #   49.976 % of all cache refs    
+      45,18,38,926      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.006277915 seconds time elapsed
+
+# started on Thu Jun 25 01:19:52 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      22,29,76,598      cache-misses              #   50.153 % of all cache refs    
+      44,45,93,284      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.007682040 seconds time elapsed
+
+# started on Thu Jun 25 01:20:03 2015
+
+
+ Performance counter stats for './infinite 20 64 0 60':
+
+      21,98,14,739      cache-misses              #   49.868 % of all cache refs    
+      44,07,94,536      cache-references                                            
+                 0      LLC-prefetches                                              
+
+      10.005206808 seconds time elapsed
+

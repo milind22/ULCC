@@ -1,0 +1,220 @@
+# started on Sat Jun 20 11:01:12 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,10,61,830      cache-misses              #   11.211 % of all cache refs    
+       9,86,69,480      cache-references                                            
+             6,040      LLC-prefetches                                              
+
+       1.078625068 seconds time elapsed
+
+# started on Sat Jun 20 11:01:14 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,18,00,014      cache-misses              #   11.960 % of all cache refs    
+       9,86,59,778      cache-references                                            
+             8,124      LLC-prefetches                                              
+
+       1.196158192 seconds time elapsed
+
+# started on Sat Jun 20 11:01:17 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       3,03,50,345      cache-misses              #   30.751 % of all cache refs    
+       9,86,98,438      cache-references                                            
+             6,690      LLC-prefetches                                              
+
+       1.305705160 seconds time elapsed
+
+# started on Sat Jun 20 11:01:19 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,35,77,120      cache-misses              #   13.759 % of all cache refs    
+       9,86,77,306      cache-references                                            
+             6,910      LLC-prefetches                                              
+
+       1.215578697 seconds time elapsed
+
+# started on Sat Jun 20 11:01:21 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,19,55,173      cache-misses              #   12.118 % of all cache refs    
+       9,86,59,232      cache-references                                            
+             5,134      LLC-prefetches                                              
+
+       1.099033150 seconds time elapsed
+
+# started on Sat Jun 20 11:01:23 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       3,04,65,476      cache-misses              #   30.868 % of all cache refs    
+       9,86,95,933      cache-references                                            
+             5,094      LLC-prefetches                                              
+
+       1.277712176 seconds time elapsed
+
+# started on Sat Jun 20 11:01:26 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,36,93,535      cache-misses              #   13.880 % of all cache refs    
+       9,86,59,064      cache-references                                            
+            37,877      LLC-prefetches                                              
+
+       1.085203627 seconds time elapsed
+
+# started on Sat Jun 20 11:01:28 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,16,92,814      cache-misses              #   11.853 % of all cache refs    
+       9,86,51,916      cache-references                                            
+            36,922      LLC-prefetches                                              
+
+       1.140966421 seconds time elapsed
+
+# started on Sat Jun 20 11:01:30 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       3,08,72,491      cache-misses              #   31.274 % of all cache refs    
+       9,87,15,496      cache-references                                            
+             5,244      LLC-prefetches                                              
+
+       1.458961062 seconds time elapsed
+
+# started on Sat Jun 20 11:01:33 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,80,97,874      cache-misses              #   28.453 % of all cache refs    
+       9,87,52,784      cache-references                                            
+             7,960      LLC-prefetches                                              
+
+       1.718013867 seconds time elapsed
+
+# started on Sat Jun 20 11:02:53 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+         94,16,398      cache-misses              #    9.546 % of all cache refs    
+       9,86,40,454      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.087476489 seconds time elapsed
+
+# started on Sat Jun 20 11:02:55 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+         73,67,244      cache-misses              #    7.469 % of all cache refs    
+       9,86,35,626      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.014212573 seconds time elapsed
+
+# started on Sat Jun 20 11:02:57 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,78,47,175      cache-misses              #   28.208 % of all cache refs    
+       9,87,20,158      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.634620945 seconds time elapsed
+
+# started on Sat Jun 20 11:03:00 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,64,57,866      cache-misses              #   26.802 % of all cache refs    
+       9,87,15,904      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.623840056 seconds time elapsed
+
+# started on Sat Jun 20 11:03:02 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,65,02,359      cache-misses              #   26.853 % of all cache refs    
+       9,86,93,520      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.615351507 seconds time elapsed
+
+# started on Sat Jun 20 11:03:05 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       1,20,12,319      cache-misses              #   12.168 % of all cache refs    
+       9,87,20,640      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.276222553 seconds time elapsed
+
+# started on Sat Jun 20 11:03:07 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,16,58,070      cache-misses              #   21.940 % of all cache refs    
+       9,87,15,337      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.496550681 seconds time elapsed
+
+# started on Sat Jun 20 11:03:10 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,38,20,492      cache-misses              #   24.136 % of all cache refs    
+       9,86,91,999      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.540320459 seconds time elapsed
+
+# started on Sat Jun 20 11:03:13 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,70,85,606      cache-misses              #   27.441 % of all cache refs    
+       9,87,05,346      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.663572398 seconds time elapsed
+
+# started on Sat Jun 20 11:03:15 2015
+
+
+ Performance counter stats for './accesses 10 64':
+
+       2,65,55,416      cache-misses              #   26.901 % of all cache refs    
+       9,87,15,945      cache-references                                            
+                 0      LLC-prefetches                                              
+
+       1.611035492 seconds time elapsed
+

@@ -1,0 +1,6 @@
+all:
+	gcc accesses_int.c -L../../src -Wl,-rpath,../../src -lulcc -lpthread -o accesses
+run:
+	./accesses
+clean:
+	rm -f accesses

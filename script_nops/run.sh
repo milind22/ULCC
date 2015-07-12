@@ -1,0 +1,149 @@
+make -f makefile.infinite
+sleep 1
+make -f makefile.infiniteULCC
+
+nops=10
+cl=0
+cw=62
+
+sdStrong[0]=10
+sdStrong[1]=12
+sdStrong[2]=20
+
+sdWeak[0]=50
+sdWeak[1]=100
+
+ch[0]=30
+ch[1]=50
+ch[2]=60
+
+#solo
+cp infinite_version.s accesses_20_nops.s
+for i in "${sdStrong[@]}"
+do
+for (( rep=1;rep<=20;rep++))
+do
+for (( x=1 ; x <= nops ; x++ ))
+do
+	sed -i '/.L9:/a\\t nop ' accesses_20_nops.s
+done
+echo "$rep"
+gcc accesses_20_nops.s -o accesses
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./accesses $i 64 &
+sleep 10
+pkill accesses
+bash arrange.sh >> data_solo.$i
+done
+sort -n data_solo.$i --output=data_solo.$i
+cmr_mean="$(awk '{ sum+=$5} END {print sum/20}' data_solo.$i)"
+echo "data_solo.$i- $cmr_mean" >> cmr_mean
+acc="$(awk '{ sum+=$2} END {print sum/20}' data_solo.$i)"
+echo "data_solo.$i- $acc" >> acc_mean
+time="$(awk '{ sum+=$3} END {print sum/20}' data_solo.$i)"
+echo "data_solo.$i- $time" >> time_mean
+cmr_med="$(sed -n '13p' data_solo.$i)"
+echo "data_solo.$i- $cmr_med" >> median
+done
+
+#solo with ulcc
+cp infinite_version_ulcc.s accesses_20_nops.s
+for j in "${ch[@]}"
+do
+for i in "${sdStrong[@]}"
+do
+for (( rep=1;rep<=20;rep++))
+do
+for (( x=1 ; x <= nops ; x++ ))
+do
+	sed -i '/.L17:/a\\t nop ' accesses_20_nops.s
+done
+echo "$rep"
+gcc accesses_20_nops.s -L../../../src -Wl,-rpath,../../../src -lulcc -lpthread -o accesses
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./accesses $i 64 $cl $j &
+sleep 10
+pkill accesses
+bash arrange.sh >> data_solo.$i.ulcc.$j
+done
+sort -n data_solo.$i.ulcc.$j --output=data_solo.$i.ulcc.$j
+cmr_mean="$(awk '{ sum+=$5} END {print sum/20}' data_solo.$i.ulcc.$j)"
+echo "data_solo.$i.ulcc.$j- $cmr_mean" >> cmr_mean
+acc="$(awk '{ sum+=$2} END {print sum/20}' data_solo.$i.ulcc.$j)"
+echo "data_solo.$i.ulcc.$j- $acc" >> acc_mean
+time="$(awk '{ sum+=$3} END {print sum/20}' data_solo.$i.ulcc.$j)"
+echo "data_solo.$i.ulcc.$j- $time" >> time_mean
+cmr_med="$(sed -n '13p' data_solo.$i.ulcc.$j)"
+echo "data_solo.$i.ulcc.$j- $cmr_med" >> median
+done
+done
+
+
+#strong with weak
+cp infinite_version.s accesses_20_nops.s
+for i in "${sdStrong[@]}"
+do
+for j in "${sdWeak[@]}"
+do
+for (( rep=1;rep<=20;rep++))
+do
+for (( x=1 ; x <= nops ; x++ ))
+do
+	sed -i '/.L9:/a\\t nop ' accesses_20_nops.s
+done
+echo "$rep"
+gcc accesses_20_nops.s -o accesses
+numactl --physcpubind=2 --membind=0 ./infinite $j 64 &
+sleep 1
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./accesses $i 64 &
+sleep 10
+pkill infinite
+pkill accesses
+bash arrange.sh >> data.strong.$i.weak.$j
+done
+sort -n data.strong.$i.weak.$j --output=data.strong.$i.weak.$j
+cmr_mean="$(awk '{ sum+=$5} END {print sum/20}' data.strong.$i.weak.$j)"
+echo "data.strong.$i.weak.$j- $cmr_mean" >> cmr_mean
+acc="$(awk '{ sum+=$2} END {print sum/20}' data.strong.$i.weak.$j)"
+echo "data.strong.$i.weak.$j- $acc" >> acc_mean
+time="$(awk '{ sum+=$3} END {print sum/20}' data.strong.$i.weak.$j)"
+echo "data.strong.$i.weak.$j- $time" >> time_mean
+cmr_med="$(sed -n '13p' data.strong.$i.weak.$j)"
+echo "data.strong.$i.weak.$j- $cmr_med" >> median
+done
+done
+
+#strong with weak and ulcc
+cp infinite_version_ulcc.s accesses_20_nops.s
+for k in "${ch[@]}"
+do
+for i in "${sdStrong[@]}"
+do
+for j in "${sdWeak[@]}"
+do
+for (( rep=1;rep<=20;rep++))
+do
+for (( x=1 ; x <= nops ; x++ ))
+do
+	sed -i '/.L17:/a\\t nop ' accesses_20_nops.s
+done
+echo "$rep"
+gcc accesses_20_nops.s -L../../../src -Wl,-rpath,../../../src -lulcc -lpthread -o accesses
+numactl --physcpubind=2 --membind=0 ./infiniteULCC $j 64 $k+1 $cw &
+sleep 1
+numactl --physcpubind=0 --membind=0 perf stat --output=perf-out --append -B -e cache-misses,cache-references,LLC-prefetches  ./accesses $i 64 $cl $k &
+sleep 10
+pkill infiniteULCC
+pkill accesses
+bash arrange.sh >> data.strong.$i.weak.$j.ulcc.$k
+done
+sort -n data.strong.$i.weak.$j.ulcc.$k --output=data.strong.$i.weak.$j.ulcc.$k
+cmr_mean="$(awk '{ sum+=$5} END {print sum/20}' data.strong.$i.weak.$j.ulcc.$k)"
+echo "data.strong.$i.weak.$j.ulcc.$k- $cmr_mean" >> cmr_mean
+acc="$(awk '{ sum+=$2} END {print sum/20}' data.strong.$i.weak.$j.ulcc.$k)"
+echo "data.strong.$i.weak.$j.ulcc.$k- $acc" >> acc_mean
+time="$(awk '{ sum+=$3} END {print sum/20}' data.strong.$i.weak.$j.ulcc.$k)"
+echo "data.strong.$i.weak.$j.ulcc.$k- $time" >> time_mean
+cmr_med="$(sed -n '13p' data.strong.$i.weak.$j.ulcc.$k)"
+echo "data.strong.$i.weak.$j.ulcc.$k- $cmr_med" >> median
+done
+done
+done
